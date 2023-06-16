@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#header {
+    background: #202A44;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    padding: 32px;
+    /* width: 100%; */
+    border-bottom: 5px goldenrod solid;
+    /* max-width: 1300px; */
+}
+
+#gallery {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.item img {
+    padding: 0px;
+    margin: 10px;
+    height: 450px;
+    width: 450px;
+}
+
+#main-footer {
+    background: #202A44;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#main-footer p {
+    text-align: center;
+}
+
+#main-footer p a {
+    color: #fff;
+}
