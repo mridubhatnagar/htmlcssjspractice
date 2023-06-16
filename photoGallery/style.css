@@ -33,6 +33,7 @@ body {
     margin: 10px;
     height: 450px;
     width: 450px;
+    object-fit: cover;
 }
 
 #main-footer {
