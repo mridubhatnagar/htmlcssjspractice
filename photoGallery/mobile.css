@@ -8,3 +8,15 @@
     padding: 0px;
     margin: 10px;
 }
+
+#main-footer p {
+    text-align: center;
+}
+
+#main-footer p a {
+    color: #fff;
+}
+
+#main-footer p a:hover {
+    color: lightcyan;
+}
