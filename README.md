@@ -7,6 +7,7 @@ Practice Problems for HTML, CSS and JS
 4. Flexbox Challenge #1 (Conquering Responsive Layout) - https://mridubhatnagar.github.io/htmlcssjspractice/kevinPowell/conqueringResponsiveLayout/index.html
 5. Odin Project Assignment
        - Landing Page Provided Layouts.
+   
             - https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/02.png
             - https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png
        -     
