@@ -1,0 +1,171 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #1F2937;
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.hero__navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero__navbar #header-logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero__navbar .item-list a {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-left: 1rem;
+}
+
+.hero__navbar .item-list li:last-child a {
+    padding-right: 6rem;
+}
+
+.hero__navbar .item-list {
+    list-style: none;
+    display: flex;
+    
+}
+
+.hero__text {
+    display: flex;
+    margin: 3rem 0;
+    flex-direction: column;
+    max-width: 30%;
+}
+
+.hero__text #placeholder .img-placeholder {
+    height: 200px;
+    width: 500px;
+    position: absolute;
+    right: 6.5rem;
+    top: 5rem;
+    background: gray;
+}
+
+.hero__text #placeholder .img-placeholder p {
+    text-align: center;
+    margin-top: 3.5rem;
+}
+
+.hero__text .btn {
+    width: 7rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    color: white;
+    background: #3882F6;
+    font-weight: 900;
+    border-radius: 8px;
+}
+
+#information .information-header {
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+}
+
+#information .container .parent {
+    display: flex;
+    gap: 2rem; 
+    padding-top: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#information .container .parent > div p {
+    text-align: center;
+}
+
+#information .container .parent > div {
+    width: 150px;
+}
+
+
+#information .child {
+    height: 150px;
+    width: 150px;
+    border-radius: 15%;
+    border: 2px solid #3882F6;
+}
+
+#testimonial {
+    text-align: center;
+    color: #1F2937;
+    background: #E5E7EB;
+    margin: 0 auto;
+}
+
+#testimonial .container  {
+    padding: 7rem 0;
+    max-width: 45%;
+}
+
+#testimonial .container .testimonial__text {
+    font-size: 36px;
+    font-style: italic;
+}
+
+#testimonial .container small {
+    display: block;
+    text-align: end;
+    font-weight: 900;
+    font-size: 1rem;
+    
+}
+
+#action .container {
+    background: #3882F6;
+    padding: 2rem 0;
+    margin: 2rem auto;
+}
+
+#action .container .action__text {
+    color: white;
+    position: relative;
+    padding-left: 5rem;
+}
+
+#action .container .action__text a{
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    position: absolute;
+    top: 0.2rem;
+    right: 100px;
+    padding: 0.5rem 1rem;
+    border: 3px solid white;
+}
+
+#footer {
+    background: #1F2937;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
