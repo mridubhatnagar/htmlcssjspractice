@@ -8,6 +8,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+
 h1 {
     font-size: 48px;
     color: #F9FAF8;
@@ -20,12 +26,14 @@ a {
 .hero {
     background-color: #1F2937;
     color: white;
+    padding-bottom: 5rem;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
+    margin-bottom: 5rem;
 }
 
 .hero__navbar {
@@ -44,10 +52,6 @@ a {
     margin-left: 1rem;
 }
 
-.hero__navbar .item-list li:last-child a {
-    padding-right: 6rem;
-}
-
 .hero__navbar .item-list {
     list-style: none;
     display: flex;
@@ -57,16 +61,15 @@ a {
 .hero__text {
     display: flex;
     margin: 3rem 0;
-    flex-direction: column;
-    max-width: 30%;
+    justify-content: space-between;
 }
 
-.hero__text #placeholder .img-placeholder {
-    height: 200px;
-    width: 500px;
-    position: absolute;
-    right: 6.5rem;
-    top: 5rem;
+.hero__text > div:first-child {
+    width: 33%;
+}
+
+.hero__text #placeholder {
+    width: 40%;
     background: gray;
 }
 
@@ -97,24 +100,27 @@ a {
     padding-top: 2rem;
     align-items: center;
     justify-content: center;
-    margin-bottom: 5rem;
-}
-
-#information .container .parent > div p {
-    text-align: center;
-}
-
-#information .container .parent > div {
-    width: 150px;
 }
 
 
-#information .child {
-    height: 150px;
-    width: 150px;
-    border-radius: 15%;
+#information .container .parent .child{
+    height: 300px;
+    flex-shrink: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
     border: 2px solid #3882F6;
 }
+
+ #information .container .parent .child img {
+    height: 80%;
+}
+
+#information .container .parent .child p {
+    text-align: center;
+} 
+
 
 #testimonial {
     text-align: center;
@@ -149,17 +155,17 @@ a {
 
 #action .container .action__text {
     color: white;
-    position: relative;
-    padding-left: 5rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    justify-content: space-between;
 }
 
 #action .container .action__text a{
     color: white;
     font-weight: bold;
     border-radius: 8px;
-    position: absolute;
-    top: 0.2rem;
-    right: 100px;
     padding: 0.5rem 1rem;
     border: 3px solid white;
 }
