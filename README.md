@@ -9,6 +9,7 @@ Practice Problems for HTML, CSS and JS
        1.Landing Page Provided Layouts.
             a.https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/02.png
             b.https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png
+   
        2.Live Preview - https://mridubhatnagar.github.io/htmlcssjspractice/odinProject/foundation/landingPage/index.html
 
 
