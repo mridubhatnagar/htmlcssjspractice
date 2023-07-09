@@ -6,11 +6,11 @@ Practice Problems for HTML, CSS and JS
 3. Portfolio Website - https://mridubhatnagar.github.io/htmlcssjspractice/freecodecampProjects/portfolioWebsite/
 4. Flexbox Challenge #1 (Conquering Responsive Layout) - https://mridubhatnagar.github.io/htmlcssjspractice/kevinPowell/conqueringResponsiveLayout/index.html
 5. Odin Project Assignment
-       - Landing Page Provided Layouts.
-            - https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/02.png
-            - https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png
+       1.Landing Page Provided Layouts.
+            a.https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/02.png
+            b.https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png
 
-       - Live Preview - https://mridubhatnagar.github.io/htmlcssjspractice/odinProject/foundation/landingPage/index.html
+       2.Live Preview - https://mridubhatnagar.github.io/htmlcssjspractice/odinProject/foundation/landingPage/index.html
 
 
        -     
