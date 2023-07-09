@@ -81,6 +81,10 @@ h1 {
     opacity: .75; 
 }
 
+.main {
+   margin-top: 2rem;
+}
+
 
 .main__text {
     color: #136C72;
