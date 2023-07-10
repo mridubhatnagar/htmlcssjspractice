@@ -1,0 +1,141 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1128px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.col-1 {
+    width: 50%;
+}
+
+.col-2 {
+    width: 50%;
+    margin-left: 2rem;
+}
+
+.hero {
+    background: #F3EED9;
+    color: #824936;
+    padding: 10rem 0;
+}
+
+.hero__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__text h2 {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: black;
+}
+
+.hero__text h1 {
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+.main {
+    /* padding: 5rem 0; */
+    display: flex;
+    align-items: center;
+    min-height: 660px;
+}
+
+.main__text {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main__text h2 {
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #824936;
+}
+
+.main__text--primary-content {
+    display: flex;
+    margin: 3rem 0;
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+    color: #222C2A;
+    justify-content: space-between;
+}
+
+.section-1 {
+    background: #222C2A;
+    color: #F3EED9;
+}
+
+.section-1__text {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 0;
+}
+
+.section-1__text--primary-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 1rem;
+}
+
+.section-1__text--primary-text h2 {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.section-2 {
+    background: #824936;
+    color: #F3EED9;
+    padding: 4rem 0;
+    display: flex;
+}
+
+.section-2__text {
+    display: flex;
+}
+
+.section-2__text--primary-text {
+    
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-2__text--primary-img {
+    flex-grow: 1;
+    align-self: flex-end;
+}
+.image-02 {
+    width: 100%;
+    object-fit: cover;
+}
+
+.image-01 {
+    width: 100%;
+    object-fit: cover;
+}
+
+.section-2__text--primary-text h2 {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
