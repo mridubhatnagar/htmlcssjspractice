@@ -12,7 +12,7 @@ Practice Problems for HTML, CSS and JS
        2.Live Preview - https://mridubhatnagar.github.io/htmlcssjspractice/odinProject/foundation/landingPage/index.html
 6. Flexbox Challenge #2 (Conquering Responsive Layout) - https://mridubhatnagar.github.io/htmlcssjspractice/kevinPowell/conqueringResponsiveLayout/flexboxChallenge02/index.html
 7. Flexbox Challenge #3 (Conquering Responsive Layout) - https://mridubhatnagar.github.io/htmlcssjspractice/kevinPowell/conqueringResponsiveLayout/nav-challenge/index.html
-8. Flexbox Challenge #4 (Conquering Responsive Layout) - https://mridubhatnagar.github.io/htmlcssjspractice/kevinPowell/conqueringResponsiveLayout/flexboxChallenge04/index.html 
+8. Flexbox Challenge #4 (Conquering Responsive Layout) - https://mridubhatnagar.github.io/htmlcssjspractice/kevinPowell/conqueringResponsiveLayout/flexbox-challenge-4/index.html 
 
 
        -     
