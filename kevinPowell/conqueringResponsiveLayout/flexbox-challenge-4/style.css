@@ -139,3 +139,37 @@ img {
     margin-bottom: 1rem;
     margin-top: 1rem;
 }
+
+@media(max-width: 600px) {
+    .container {
+        max-width: 300px;
+    }
+
+    .col-1,
+    .col-2 {
+        display: block;
+        width: 100%;
+    }
+
+    .main__text--primary-content {
+        display: block;
+        text-align: center;
+    }
+
+    .col-2 {
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+
+    .section-1__text,
+    .section-2__text {
+        display: block;
+    }
+
+    .section-1__text--primary-text,
+    .section-1__text--primary-text h2,
+    .section-2__text--primary-text,
+    .section-1__text--primary-text h2 {
+        text-align: center;
+    }
+}
